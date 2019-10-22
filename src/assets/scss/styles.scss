@@ -1,0 +1,31 @@
+@import "~normalize.css/normalize.css";
+
+body {
+    background-color: darkgray;
+    $size: 5vh;
+
+    .newsticker {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+
+        height: $size;
+        width: 50vw;
+
+        border: 1px solid black;
+        background-color: white;
+
+        .news {
+            position: absolute;
+            display: inline-block;
+
+            white-space: nowrap;
+            font-size: $size;
+            line-height: 1;
+
+            //border: 1px solid red;
+        }
+    }
+}

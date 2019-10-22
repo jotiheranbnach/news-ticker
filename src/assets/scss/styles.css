@@ -1,0 +1,3 @@
+@import url(~normalize.css/normalize.css);body{background-color:darkgray}body .newsticker{position:absolute;top:50vh;left:50vw;transform:translate(-50%, -50%);overflow:hidden;height:5vh;width:50vw;border:1px solid black;background-color:white}body .newsticker .news{position:absolute;display:inline-block;white-space:nowrap;font-size:5vh;line-height:1}
+
+/*# sourceMappingURL=styles.css.map */

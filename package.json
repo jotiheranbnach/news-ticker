@@ -1,0 +1,26 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENCE <http://unlicense.org/>",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.0",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
